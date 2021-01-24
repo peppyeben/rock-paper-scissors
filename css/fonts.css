@@ -1,0 +1,156 @@
+
+google-webfonts-helper
+Get eot, ttf, svg, woff and woff2 files + CSS snippets
+Montserrat sans-serif
+Montserrat Alternates sans-serif
+Montserrat Subrayada sans-serif
+Montserrat
+sans-serif
+18 styles 100, 100italic, 200, 200italic, 300, 300italic, regular, italic, 500, 500italic, 600, 600italic, 700, 700italic, 800, 800italic, 900, 900italic
+5 charsets cyrillic, cyrillic-ext, latin, latin-ext, vietnamese
+Rank 5 in popularity of 1029 fonts in total
+Last modified 2020-09-15 (v15)
+1. Select charsets: (default is latin)
+cyrilliccyrillic-extlatinlatin-extvietnamese
+2. Select styles: (default is regular)
+Preview size
+16
+px
+ Sample text editable.
+100
+The quick brown fox jumps over the lazy dog.
+
+100italic
+The quick brown fox jumps over the lazy dog.
+
+200
+The quick brown fox jumps over the lazy dog.
+
+200italic
+The quick brown fox jumps over the lazy dog.
+
+300
+The quick brown fox jumps over the lazy dog.
+
+300italic
+The quick brown fox jumps over the lazy dog.
+
+regular
+The quick brown fox jumps over the lazy dog.
+
+italic
+The quick brown fox jumps over the lazy dog.
+
+500
+The quick brown fox jumps over the lazy dog.
+
+500italic
+The quick brown fox jumps over the lazy dog.
+
+600
+The quick brown fox jumps over the lazy dog.
+
+600italic
+The quick brown fox jumps over the lazy dog.
+
+700
+The quick brown fox jumps over the lazy dog.
+
+700italic
+The quick brown fox jumps over the lazy dog.
+
+800
+The quick brown fox jumps over the lazy dog.
+
+800italic
+The quick brown fox jumps over the lazy dog.
+
+900
+The quick brown fox jumps over the lazy dog.
+
+900italic
+The quick brown fox jumps over the lazy dog.
+
+3. Copy CSS: (default is Best Support)
+Best Support
+Modern Browsers
+Choose Best Support if old browsers still need to be supported. Formats in this snippet: [eot,woff,woff2,ttf,svg]
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat-v15-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v15-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/montserrat-v15-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v15-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v15-latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat-v15-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v15-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-800 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/montserrat-v15-latin-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v15-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v15-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v15-latin-800.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v15-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v15-latin-800.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-900 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/montserrat-v15-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v15-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v15-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v15-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v15-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v15-latin-900.svg#Montserrat') format('svg'); /* Legacy iOS */
+}

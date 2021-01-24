@@ -1,0 +1,107 @@
+
+@import "fonts.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 30rem;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.player .btn {
+  border: unset;
+  padding: 1rem;
+  border-radius: .3rem;
+  cursor: pointer;
+  background: rgba(220, 0, 81, 0.8);
+}
+
+.player .btn:focus {
+  outline: none;
+}
+
+.computer-div {
+  width: 50%;
+  height: 7rem;
+  background: #fff;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.6rem 0.09rem rgba(0,0,0, 0.3);
+}
+
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  text-align: center;
+}
+
+.names > p {
+  margin: 0 1rem;
+}
+
+.scores .player , .scores .computer {
+  background: #eee;
+  font-size: 3rem;
+  margin: 0 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.draw {
+  color: rgb(0,0,0, 0.5);
+}
+
+label {
+  margin-top: 1rem;
+}
+
+#rock {
+  color: #ffff95;
+}
+#paper {
+  color: #ffefd5;
+}
+#scissors {
+  color: #23297a;
+}
